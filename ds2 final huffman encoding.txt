@@ -1,0 +1,18 @@
+
+
+huffman encoding version 2
+d 1        128*1 = 128
+a 01       64 *2 = 128   256
+b 001      32 *3 = 96
+g 0001     16 *4 = 64    160     
+f 00001    8 * 5 = 40
+e 000001   4 * 6 = 24    64       
+c 0000000  2 * 7 = 14            480
+h 0000001	  2* 7 = 14     28       28
+
+bits of huffman = 508 
+bits to code 8 characters: 3 
+fixed length  = 3 * 256 = 768
+768-508
+
+260 bits saved

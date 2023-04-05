@@ -1,0 +1,8 @@
+Question 1.
+
+a. left leaning Red-Black trees, AVL trees, and binary search trees
+b. use the formula log(n+1)-1 to find the length of a 2-3 finding n keys.  the base of the log is either 2 or 3 depending on if you are dealing wiht a 2 or 3 nodes. if it is a 2 node, it will be log(n), and if it is a 3 node, it will be .632 lg N. 
+c. BSTs have a symmetric order proerty, so when you start at the root, you go down the left side of the tree. The nodes left of the root are less than the root. Traverse the left side of the root until you hit a left node that has no children, that node without any children will be the minimum key.
+d. BSTs have a symmetric order proerty, with the left side being less than the root and the right side being greater than the root. so when you start at the root, you go down the right side of the tree, and once you hit a right node that has no children, that node without any children will be the minimum key.
+e. Since the order is symmetrical, all nodes that are on the eleft subtree will be less than the root. Since each node on the left subtree will have at max 2 child nodes. Traverse to the node that will be the parent of the mimum value key, and that will be the second smallest key.
+f. Since the order is symmetrical, all nodes that are on the right subtree will be greater than the root. Traverse the tree until you get to the maximum value key. The parent of the maximum value key will be the second largest key.
